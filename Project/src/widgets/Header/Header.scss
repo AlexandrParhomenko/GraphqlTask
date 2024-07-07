@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  column-gap: 20px;
+  padding: 20px;
+
+  &__searchField {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+  }
+}

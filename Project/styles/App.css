@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #eae2e2;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #939393;
+  border-radius: 100vw;
+}
+
+.card {
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #eeeeee;
+}
